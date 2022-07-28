@@ -1,6 +1,6 @@
-const myName = "David"
+const myName = "Ola"
 const myPromise = new Promise((resolve, reject) => {
-  myName.length > 4 ? resolve("Nice, long name") : reject("quite a short name uhn?")
+  myName.length > 4 ? resolve("Nice, long name") : reject("a short, beautiful name")
 })
 
 myPromise
